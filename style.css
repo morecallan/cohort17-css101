@@ -30,3 +30,50 @@ p {
 h2 ~ p {
 	background-color: red;
 }
+
+/* Step 3*/
+#li-1 {
+	font-size: 30px;
+}
+
+#li-2 {
+	font-weight: bold;
+}
+
+#li-3 {
+	text-transform: capitalize;
+}
+
+#mystery-ul li:nth-child(2n+1){
+	font-family: 'Mystery Quest', cursive;
+}
+
+img {
+	width: 200px;
+	height: auto;
+}
+
+#flex-kermit {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#flex-kermit > img {
+	width: 30%;
+}
+
+/* Floats suck, use flexbox*/
+/* Don't use w3schools */
+
+/* Step 4 */
+
+input {
+	background-color: white;
+}
+input:valid {
+	background-color: green;
+}
+
+input:invalid {
+	background-color: red;
+}
