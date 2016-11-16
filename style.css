@@ -1,0 +1,32 @@
+/* Step One*/
+
+p {
+	border-bottom: 1px solid red;
+}
+
+.kermit {
+	border: 10px solid green;
+	border-radius: 25%;
+}
+
+#main-div-1 {
+	padding: 5%;
+}
+
+/* Step Two*/
+/* #main-div-2 > .kermit    only goes one level deep in main div 2 with the class kermit*/
+/* anything that falls in main div with the class kermit*/
+#main-div-2 .kermit {
+	border: 2px dotted purple;
+
+}
+
+/* only changes paragraph in */
+#main-div-2 > p {
+	background-color: orange;
+}
+
+/* targets all sibilings of h2 which are paragraphs */
+h2 ~ p {
+	background-color: red;
+}
